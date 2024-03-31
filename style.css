@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header {
+    background: rgb(13, 152, 245);
+}
+
+nav {
+    width: 60%;
+    margin: auto;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+}
+
+.logo h1 {
+    line-height: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+.menu {
+    width: 70%;
+    float: right;
+}
+
+.menu ul {
+    text-align: right;
+}
+
+.menu ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 0px 20px;
+    line-height: 50px;
+    border-right: 1px solid white;
+}
+
+.slider{
+    padding: 200px 0px;
+    text-align: center;
+    background-image: url(https://i.ibb.co/4dhYs1B/362445.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider h2{
+    display: inline-block;
+    background: gray;
+    color: white;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+.slider h1{
+
+    background: #0d98f5;
+    color: white;
+    font-size: 40px;
+    max-width: max-content;
+    margin: auto;
+    padding: 0px 10px;
+    margin-top: 20px;
+}
+
+.heading{
+    text-align: center;
+}
+.sub_Heading{
+    text-align: center;
+    max-width: 650px;
+    margin: auto;
+}
+
+
+.About{
+    padding: 100px 0px;
+}
+
+
+
+.about_Container{
+    width: 60%;
+    margin: auto;
+    margin-top: 60px;
+}
+.card{
+    width: 31%;
+    float: left;
+    text-align: center;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 20px 5px;
+    margin-right: 20px;
+}
+
+.card h2{
+    padding: 15px 0px;
+}
+
+.card span{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    background: #0d98f5;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 25px 0px 25px 0px;
+}
+
+.blog{
+    width: 70%;
+    margin: auto;
+}
+
+.blog img{
+    width: 100px;
+    float: left;
+    margin-right: 15px;
+}
+
+.blog p{
+    
+}
+
+.blog_Left{
+    width: 70%;
+    float: left;
+}
+
+.blog_Right{
+    width: 28%;
+    float: right;
+}
+
+.blog_Right ul{}
+.blog_Right ul li{
+    list-style: none;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 6px;
+    border-left: 10px solid #0d98f5;
+    background: #e6e3e324;
+}
+
+.blog_Right h1{
+   padding-bottom: 5px;
+   border-bottom: 2px solid black;
+   margin-bottom: 10px;
+}
+
+
+footer{
+    background: #0d98f5;
+    color: white;
+    margin-top: 30px;
+}
+
+.footer_menu{
+    width: 70%;
+    margin: auto;
+}
+
+footer p{
+    width: 50%;
+    float: left;
+    line-height: 50px;
+}
+
+footer ul{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+footer ul li{
+    display: inline-block;
+    list-style: none;
+}
+footer ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 50px;
+    color: white;
+    padding: 0px 10px;
+}
+footer ul li a:hover{}
